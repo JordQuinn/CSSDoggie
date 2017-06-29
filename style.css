@@ -1,26 +1,39 @@
 
 #site_header{
 	background-color: #ff8523;
-	padding:30px 30px 30px 30px;
+	padding:10px;
 }
 
-.logo{
-	align-content: flex-start;
+#logo{
+	margin-bottom: 100em;
+}
+
+section p a{
+	color: #1fabe5;
 }
 
 .main_navigation >a{
 	color: white;
 	text-decoration: none;
 	border:1px solid white;
-	padding:15px;
-	margin-top: 25px;
-	border-radius: 1em;
+	padding: 5px 20px 5px 20px;
+	border-radius: 5px;
+	box-sizing: border-box;
 }
-
+.main_navigation{
+	padding: 20px;
+}
 
 body{
     font-family: Helvetica, Arial, sans-serif;
     line-height: 1.6;
+    background-color: #dddddd;
+    padding: 10px 50px 10px 50px;
+}
+
+#page_content{
+	background-color: white;
+	padding: 10px;
 }
 
 h1, h2, h3{
@@ -31,11 +44,36 @@ ul{
 	font-weight: bold;
 }
 
+thead{
+	background-color: #1fabe5;
+}
+section{
+	border-bottom: 3px solid #eee;
+	margin-bottom: 50px;
+}
 
+table{
+	border: 1px solid #046c97;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td{
+	border: 1px solid #046c97;
+}
+
+form{
+	background-color: #eee;
+	padding: 10px;
+}
+.name{
+	background-color: #ff8523;
+}
+
+#submit_button{
+	background-color: #1fabe5;
+}
 /*
-font info:
-    family - Helvetica, Arial, sans-serif
-    line-height - 1.6
 
 
 colors:
